@@ -40,7 +40,7 @@ html {
   box-sizing: inherit;
 }
 
-.body {
+.body {                  /*добавление базового стиля текста*/
   font-family: "Lato";
   font-style: normal;
   font-size: 16px;
@@ -57,7 +57,7 @@ html {
 /* Header styles start */
 .header {
   position: fixed;
-  top: 0;
+  top: 0;                /* Фиксируем header в верхней части экрана*/
   left: 0;
   width: 100%;
 }
@@ -80,7 +80,7 @@ html {
   margin-right: 82px;
 }
 
-.header__item:last-child {
+.header__item:last-child {     /* Убираем отступ с последнего элемента list */
   margin-right: 0;
 }
 
@@ -88,9 +88,9 @@ html {
   font-size: 18px;
   line-height: 24px;
   color: white;
-  text-decoration: none;
+  text-decoration: none;        /* Убираем подчеркивание */
 }
-.header__link:hover,
+.header__link:hover,            /* Псевдоклассы, для того чтобы ссылки реагировали на наведение по ним*/
 .header__link:focus,
 .header__link:active {
   opacity: 0.75;
