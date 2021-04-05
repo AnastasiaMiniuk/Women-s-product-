@@ -90,7 +90,7 @@ html {
   color: white;
   text-decoration: none;        /* Убираем подчеркивание */
 }
-.header__link:hover,            /* Псевдоклассы, для того чтобы ссылки реагировали на наведение по ним*/
+.header__link:hover,            /* Псевдоклассы, для того чтобы ссылки реагировали на наведение, при табе и при клике*/
 .header__link:focus,
 .header__link:active {
   opacity: 0.75;
