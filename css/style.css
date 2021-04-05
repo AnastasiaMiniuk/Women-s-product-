@@ -102,7 +102,7 @@ html {
 
 .intro {
   min-height: 100vh;
-  background: url(../img/Intro_bg.jpg) no-repeat;
+  background: url(../img/Intro_bg.jpg) no-repeat center;
   background-size: cover;
   padding-top: 263px;
 }
