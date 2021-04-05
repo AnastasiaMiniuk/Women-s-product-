@@ -54,8 +54,8 @@ html {
   margin: 0 auto;
 }
 
+/* Header styles start */
 .header {
-  background: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -69,8 +69,7 @@ html {
   justify-content: space-between;
   padding-top: 56px;
 }
-.header__logo {
-}
+
 .header__list {
   display: flex;
   flex-wrap: wrap;
@@ -96,3 +95,15 @@ html {
 .header__link:active {
   opacity: 0.75;
 }
+
+/* Header styles end */
+
+/* Intro styles start */
+
+.intro {
+  height: 100vh;
+  background: url(../img/Intro_bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+/* Intro styles end */
