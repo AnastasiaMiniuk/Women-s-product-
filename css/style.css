@@ -245,7 +245,7 @@ html {
   color: #000000;
   margin-bottom: 26px;
 }
-.benefits_card-disc {
+.benefits_card-desc {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 39px;
@@ -312,3 +312,49 @@ html {
 }
 
 /* Places styles end */
+
+/* Places styles start */
+.tours{
+  margin-bottom: 139px;
+
+}
+.tours-tour{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  align-items: center;
+  margin-bottom: 77px;
+}
+.tour-info{
+  padding-left: 47px;
+}
+.tour-title{
+font-weight: 500;
+font-size: 30px;
+line-height: 40px;
+margin-bottom: 85px;
+}
+.tour-desc{
+font-size: 16px;
+line-height: 24px;
+margin-bottom: 58px;
+}
+.tour-more{
+  display: inline-block;
+  padding-right: 59px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+  text-decoration: none;
+  background: url(../img/svg/arrow.svg) no-repeat 95% center;
+  transition: 0.2s all;
+
+}
+.tour-more:hover,
+.tour-more:focus {
+  opacity: 0.65;
+}
+.tours{
+  margin-bottom: ;
+}
+/* Places styles finish */
