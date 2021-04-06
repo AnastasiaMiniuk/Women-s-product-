@@ -289,4 +289,26 @@ html {
 .places_view-all:focus {
   opacity: 0.65;
 }
+
+.places_cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.places_card_size_lg {
+  grid-column: span 3; /* для того,чтобы places_cards занимали 3 колонки */
+}
+
+.places_card-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.places_card-pic {
+  height: 354px;
+}
+
 /* Places styles end */
