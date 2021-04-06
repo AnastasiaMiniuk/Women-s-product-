@@ -58,6 +58,30 @@ html {
   max-width: 1060px;
   margin: 0 auto;
 }
+.wrapper-full {
+  /* для основной части страницы, начиная с places*/
+  max-width: 1262px;
+  margin: 0 auto;
+}
+.section-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.section-title::after {
+  display: block;
+  content: "";
+  width: 253px;
+  height: 3px;
+  background-color: #006dfe;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 /* Header styles start */
 .header {
@@ -173,7 +197,8 @@ html {
 }
 /* Intro styles end */
 
-/* benefits styles */
+/* Benefits styles */
+
 .benefits {
   margin-bottom: 131px;
 }
@@ -240,4 +265,50 @@ html {
   background: url(../img/svg/arrow.svg) no-repeat right center;
 }
 
-/* benefits styles finish*/
+/* Benefits styles end*/
+
+/* Places styles start */
+.places_caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.places_title {
+  margin-right: 15px; /* добавляем отступ,чтобы на уст-вах с маленьким экраном между эл-тами остался отступ*/
+}
+.places_view-all {
+  font-size: 16px;
+  color: #006dfe;
+  text-decoration: none;
+  background: url(../img/svg/arrow.svg) no-repeat right center;
+  padding-right: 59px;
+}
+.places_view-all:hover,
+.places_view-all:focus {
+  opacity: 0.65;
+}
+
+.places_cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.places_card_size_lg {
+  grid-column: span 3; /* для того,чтобы places_cards занимали 3 колонки */
+}
+
+.places_card-title {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+}
+
+.places_card-pic {
+  height: 354px;
+}
+
+/* Places styles end */
