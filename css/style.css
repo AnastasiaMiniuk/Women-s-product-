@@ -40,7 +40,8 @@ html {
   box-sizing: inherit;
 }
 
-.body {                  /*добавление базового стиля текста*/
+.body {
+  /*добавление базового стиля текста*/
   font-family: "Lato";
   font-style: normal;
   font-size: 16px;
@@ -48,9 +49,9 @@ html {
   font-weight: normal;
   color: #102746;
 }
-.img{
-  max-width: 100%;
-  height: auto;
+.img {
+  max-width: 100%; /* фиксирование изображения в пределах контейнера*/
+  height: auto; /* сжатие изображения пропорционально по высоте*/
 }
 
 .wrapper {
@@ -61,7 +62,7 @@ html {
 /* Header styles start */
 .header {
   position: fixed;
-  top: 0;                /* Фиксируем header в верхней части экрана*/
+  top: 0; /* Фиксируем header в верхней части экрана*/
   left: 0;
   width: 100%;
 }
@@ -84,7 +85,8 @@ html {
   margin-right: 82px;
 }
 
-.header__item:last-child {     /* Убираем отступ с последнего элемента list */
+.header__item:last-child {
+  /* Убираем отступ с последнего элемента list */
   margin-right: 0;
 }
 
@@ -92,7 +94,7 @@ html {
   font-size: 18px;
   line-height: 24px;
   color: white;
-  text-decoration: none;        /* Убираем подчеркивание */
+  text-decoration: none; /* Убираем подчеркивание */
 }
 .header__link:hover,            /* Псевдоклассы, для того чтобы ссылки реагировали на наведение, при табе и при клике*/
 .header__link:focus,
@@ -113,78 +115,76 @@ html {
 }
 
 .intro__title {
-    max-width: 619px;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 60px;
-    color: white;
-    margin-bottom: 22px;   /* отступы*/
+  max-width: 619px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  margin-bottom: 22px; /* отступы*/
 }
 
 .intro__subtitle {
-
-max-width: 546px;    /* ограничение по ширине*/
-color: white;
-font-size: 16px;
-line-height: 24px;
-margin-bottom: 59px;
+  max-width: 546px; /* ограничение по ширине*/
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 59px;
 }
 
 .search-form__info {
-    display: flex;
-    flex-wrap: wrap;
-
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.search-form__field{
-    width: 297px;
-    background: transparent url(../img/svg/circle-ico.svg) no-repeat left 6px;
-    background-size: 20px;
-    border: 0;
-    border-bottom: 2px solid #BFC0C5;  /* нижнее подчеркивание*/
-    margin-right: 60px;
-    padding-left: 43px;   /* отступ от кружка до текста */ 
-    padding-bottom: 22px;
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
-
+.search-form__field {
+  width: 297px;
+  background: transparent url(../img/svg/circle-ico.svg) no-repeat left 6px;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #bfc0c5; /* нижнее подчеркивание*/
+  margin-right: 60px;
+  padding-left: 43px; /* отступ от кружка до текста */
+  padding-bottom: 22px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
 }
 
-.search-form__field::placeholder{
-    font-size: 18px;
-    font-weight: 500;
-    color: white;
+.search-form__field::placeholder {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
 }
 
-.search-form__submit{
-    padding: 15px 39px;
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 500;
-    color: white;
-    background: #1B7DFF;
-    border: 0;
-
+.search-form__submit {
+  padding: 15px 39px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  background: #1b7dff;
+  border: 0;
 }
 
-.search-form__submit:hover, .search-form__submit:focus, .search-form__submit:active{
-    background: #0049aa;
+.search-form__submit:hover,
+.search-form__submit:focus,
+.search-form__submit:active {
+  background: #0049aa;
 }
 /* Intro styles end */
 
 /* benefits styles */
-.benefits{
-  margin-bottom: 133px;
+.benefits {
+  margin-bottom: 131px;
 }
-.benefits_wrap{
+.benefits_wrap {
   max-width: 1262px;
   background-color: whitesmoke;
   margin: 0 auto;
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
   position: relative;
 }
-.benefits_title{
+.benefits_title {
   width: 100%;
   font-weight: 500;
   font-size: 35px;
@@ -196,46 +196,47 @@ margin-bottom: 59px;
   transform: translateY(-100%);
   background-color: whitesmoke;
 }
-.benefits_cards{
-display: grid;
- grid-template-columns: repeat(3, 1fr);
- grid-column-gap: 55px;
- padding: 0 100px;
- 
+.benefits_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 55px;
+  padding: 0 100px;
 }
-.benefits_card{
+.benefits_card {
   grid-column: span 1;
+  margin-bottom: 112px;
 }
-.benefits_cards-pic{
+.benefits_card-pic {
   max-width: 66px;
   margin-bottom: 37px;
- 
 }
-.benefits_card-thumb{
-display: block;
+.benefits_card-thumb {
+  display: block;
 }
-.benefits_cards-title{
-font-weight: 500;
-font-size: 18px;
-line-height: 24px;
-color: #000000;
+.benefits_card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 26px;
 }
-.benefits_cards-desc{
-font-size: 16px;
-line-height: 24px;
-margin-bottom: 39px;
+.benefits_card-disc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 39px;
 }
-.benefits_card-more{
+.benefits_card-more {
+  display: inline-block;
   padding-right: 59px;
-font-size: 16px;
-line-height: 24px;
-color: #006DFE;
-text-decoration: none;
-background: url(../img/svg/arrow.svg) no-repeat 95% center;
-transition: 0.2s all;
-
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+  text-decoration: none;
+  background: url(../img/svg/arrow.svg) no-repeat 95% center;
+  transition: 0.2s all;
 }
-.benefits_card-more:hover, .benefits_card-more:focus{
+.benefits_card-more:hover,
+.benefits_card-more:focus {
   background: url(../img/svg/arrow.svg) no-repeat right center;
 }
 
