@@ -405,3 +405,44 @@ html {
 }
 
 /* Tours styles end */
+
+/* Top places styles start */
+
+.top{
+  margin-bottom: 86px;
+}
+.top__title{
+  margin-bottom: 54px;
+}
+
+.top__cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 57px;
+}
+
+.top__card-pic{
+  position: relative;
+}
+
+
+.top__card-stats{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(21, 24, 36, 0.6);
+
+
+}
+
+.top__card-title{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  }
+/* Top places styles end */
