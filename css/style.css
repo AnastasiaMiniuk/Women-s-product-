@@ -505,9 +505,9 @@ background: #0E1D28;
   width: 100%;
 }
 .videos__wrapper{
-  position: relative;
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 
 .video__item{
