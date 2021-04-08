@@ -89,13 +89,12 @@ html {
   top: 0; /* Фиксируем header в верхней части экрана*/
   left: 0;
   width: 100%;
-  transition: .2s linear;
+  transition: 0.2s linear;
   padding-bottom: 20px;
   z-index: 999;
 }
-.header_active{
-background: #0E1D28;
-  
+.header_active {
+  background: #0e1d28;
 }
 
 .header__wrapper {
@@ -415,31 +414,30 @@ background: #0E1D28;
 
 /* Top places styles start */
 
-.top{
+.top {
   margin-bottom: 86px;
 }
-.top__title{
+.top__title {
   margin-bottom: 54px;
 }
 
-.top__cards{
+.top__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 57px;
 }
 
-.top__card-pic{
+.top__card-pic {
   position: relative;
   margin-bottom: 45px;
 }
 
-.top__card{
+.top__card {
   display: flex;
   flex-direction: column;
 }
 
-
-.top__card-stats{
+.top__card-stats {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -452,69 +450,71 @@ background: #0E1D28;
   padding: 16px 25px;
 }
 
-.top__card-title{
+.top__card-title {
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   color: white;
   margin: 0 auto 0 0;
-  }
+}
 
-  .top__card-likes{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: white;
-    padding-right: 20px;
-    background: url(../img/svg/heart-ico.svg) no-repeat right;
-    background-size: 16px;
-    margin-right: 14px;
-  }
-  .top__card-comments{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: white;
-    padding-right: 23px;
-    background: url(../img/svg/comment-ico.svg) no-repeat right;
-    background-size: 14px;
-  }
-  .top__card-desc{
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 31px;
-  }
+.top__card-likes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  padding-right: 20px;
+  background: url(../img/svg/heart-ico.svg) no-repeat right;
+  background-size: 16px;
+  margin-right: 14px;
+}
+.top__card-comments {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  padding-right: 23px;
+  background: url(../img/svg/comment-ico.svg) no-repeat right;
+  background-size: 14px;
+}
+.top__card-desc {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 31px;
+}
 
-  .top__card-more{
+.top__card-more {
   width: 118px;
-  padding: 12px 19px;  /* 12 сверху и снизу, 19 слева и справа*/
-  background: #006DFE;
+  padding: 12px 19px; /* 12 сверху и снизу, 19 слева и справа*/
+  background: #006dfe;
   text-decoration: none;
   color: white;
   font-size: 16px;
   margin: auto 0 0 0;
 }
-.top__card-more:hover, .top__card-more:focus, .top__card-more:active{
+.top__card-more:hover,
+.top__card-more:focus,
+.top__card-more:active {
   background: #0e66da;
 }
 /* Top places styles end */
 
 /* Videos styles start */
 
-.videos{
+.videos {
   width: 100%;
+  margin-bottom: 20px;
 }
-.videos__wrapper{
+.videos__wrapper {
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
 }
 
-.video__item{
-  padding-top: 56,25%;   /* высчитали исходя из размеров видео (16*9) 16 это 100% , 9 это х*/
-
+.video__item {
+  padding-top: 56, 25%; /* высчитали исходя из размеров видео (16*9) 16 это 100% , 9 это х*/
 }
-.video__element{
+.video__element {
   position: absolute;
   top: 0;
   left: 0;
