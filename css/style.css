@@ -498,3 +498,15 @@ background: #0E1D28;
   background: #0e66da;
 }
 /* Top places styles end */
+
+/* Videos styles start */
+
+.videos{
+  width: 100%;
+}
+.videos__wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Videos styles and */
