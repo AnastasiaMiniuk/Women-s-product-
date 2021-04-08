@@ -499,61 +499,36 @@ html {
 }
 /* Top places styles end */
 
-/* Videos styles start */
-
-.videos {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.videos__wrapper {
-  max-width: 1440px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.video__item {
-  padding-top: 56, 25%; /* высчитали исходя из размеров видео (16*9) 16 это 100% , 9 это х*/
-}
-.video__element {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-/* Videos styles and */
 /* Footer styles start */
 
-.footer{
+.footer {
   background: #0e1028;
   padding: 119px 0;
 }
 
-.footer__item{
+.footer__item {
   display: flex;
   flex-wrap: wrap;
-
 }
 
-.footer__logo{
+.footer__logo {
   width: 50%;
 }
-.footer__nav{
+.footer__nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   width: 50%;
 }
 
-.footer__menu-title{
+.footer__menu-title {
   color: #ffffff;
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
 }
 
-.footer__menu-link{
+.footer__menu-link {
   color: #ffffff;
   text-decoration: none;
   font-weight: normal;
@@ -563,7 +538,7 @@ html {
 
 .footer__menu-link:hover,
 .footer__menu-link:focus,
-.footer__menu-link:active{
-  opacity: .75;
+.footer__menu-link:active {
+  opacity: 0.75;
 }
 /* Footer styles end */
