@@ -73,13 +73,14 @@ html {
 }
 
 .section-title::after {
+  /* создание нижнего прочерка с помощью псевдоэлемента*/
   display: block;
   content: "";
   width: 253px;
   height: 3px;
   background-color: #006dfe;
   position: absolute;
-  bottom: 0;
+  bottom: 0; /*спозиционировали снизу*/
   left: 0;
 }
 
@@ -224,7 +225,7 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  transform: translateY(-100%);
+  transform: translateY(-99.5%);
   background-color: whitesmoke;
 }
 .benefits_cards {
@@ -234,7 +235,7 @@ html {
   padding: 0 100px;
 }
 .benefits_card {
-  grid-column: span 1;
+  grid-column: span 1; /*карточки занимают по 1 колонке*/
   margin-bottom: 112px;
 }
 .benefits_card-pic {
@@ -263,12 +264,12 @@ html {
   line-height: 24px;
   color: #006dfe;
   text-decoration: none;
-  background: url(../img/svg/arrow.svg) no-repeat 95% center;
+  background: url(../img/svg/arrow.svg) no-repeat 95% center; /* анимация для стрелки*/
   transition: 0.2s all;
 }
 .benefits_card-more:hover,
 .benefits_card-more:focus {
-  background: url(../img/svg/arrow.svg) no-repeat right center;
+  background: url(../img/svg/arrow.svg) no-repeat right center; /* анимация для стрелки*/
 }
 
 /* Benefits styles end*/
@@ -287,6 +288,7 @@ html {
 .places_title {
   margin-right: 15px; /* добавляем отступ,чтобы на уст-вах с маленьким экраном между эл-тами остался отступ*/
 }
+
 .places_view-all {
   font-size: 16px;
   color: #006dfe;
@@ -325,7 +327,9 @@ html {
   z-index: 2;
 }
 .places_card:hover .places_card-pic {
-  transform: scale(1.05);
+  transform: scale(
+    1.05
+  ); /* при Hover по places_card элемент places_card-pic маштабируется 1,05 раз */
 }
 .places_card_size_lg {
   grid-column: span 3; /* для того,чтобы places_cards занимали 3 колонки */
