@@ -377,12 +377,16 @@ html {
 .tours-tour {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0 108px;
+  grid-column-gap: 9%;
   align-items: center;
   margin-bottom: 77px;
 }
 .tour-info {
   padding-left: 47px;
+}
+.tour-info-first {
+  padding-left: 0;
+  padding-right: 47px;
 }
 .tour-title {
   font-weight: 500;
@@ -409,7 +413,10 @@ html {
 .tour-more:focus {
   opacity: 0.65;
 }
-
+.tour_thumb {
+  max-width: 100%;
+  object-fit: cover;
+}
 /* Tours styles end */
 
 /* Top places styles start */
@@ -499,23 +506,23 @@ html {
 }
 /* Top places styles end */
 /* video styles */
-.video{
+.video {
   width: 100%;
 }
-.videos_wrapper{
+.videos_wrapper {
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
 }
-.video-item{
-  padding-top:56.25% ;
+.video-item {
+  padding-top: 56.25%;
 }
-.video_elem{
-position:absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100% ;
+.video_elem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 /* finish video styles*/
 /* Footer styles start */
@@ -528,7 +535,6 @@ height: 100% ;
 .footer__item {
   display: flex;
   flex-wrap: wrap;
- 
 }
 
 .footer__logo {
