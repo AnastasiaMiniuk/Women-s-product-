@@ -596,6 +596,28 @@ height: 100% ;
 
 
 /* Media start  */
+@media screen and (max-width: 860px){
+  .benefits{
+    margin-bottom: 75px;
+  }
+  .benefits_card{
+    margin-bottom: 60px;
+  }
+  .search-form__field{
+    margin-bottom: 25px;
+  }
+  .benefits_cards{
+    padding: 0 15px;
+    grid-column-gap: 35px;
+  }
+  .benefits_title{
+    padding: 55 15px;
+
+  }
+  .benefits_wrap{
+    box-shadow: none;
+  }
+}
 
 @media screen and (max-width: 767px){
   .header__burger{
