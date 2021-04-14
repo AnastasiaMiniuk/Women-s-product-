@@ -645,6 +645,9 @@ height: 100% ;
 }
 
 @media screen and (max-width: 767px){
+  .section-title::after {
+    width: 78px;
+  }
   .header__burger{
     display: block;
   }
