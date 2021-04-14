@@ -645,6 +645,9 @@ height: 100% ;
 }
 
 @media screen and (max-width: 767px){
+  .places_title {
+    margin-bottom: 25px;
+  }
   .section-title::after {
     width: 78px;
   }
@@ -749,6 +752,18 @@ z-index: 11;
 }
 .benefits_card-desc{
   margin-bottom:  20px;
+}
+.places{
+  margin-bottom: 76px;
+}
+.places_card-pic_size_lg, .places_card-pic_size_sm {
+  height: 230px;
+}
+.tour-info, .tour-pic{
+  grid-column: span 2;
+}
+.tour-pic{
+  margin-bottom: 12px;
 }
 }
 @media screen and (max-width: 500px){
