@@ -8,7 +8,7 @@
     <title>Discover Amazing places in Japan</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <!--для сброса стилей-->
-    <link rel="stylesheet" href="./css/style.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!--подключение нужных стилей-->
   </head>
   <body>
@@ -34,7 +34,9 @@
                 <a href="#articles" class="header__link js-scroll">Articles</a>
               </li>
               <li class="header__item">
-                <a href="#locations" class="header__link js-scroll">Locations</a>
+                <a href="#locations" class="header__link js-scroll"
+                  >Locations</a
+                >
               </li>
               <li class="header__item">
                 <a href="#videos" class="header__link js-scroll">Videos</a>
@@ -61,7 +63,7 @@
     <main class="main">
       <!-- тег main содержит всю основную информацию о сайте -->
       <!-- intro start -->
-      <section class="intro" id = "sign-in">
+      <section class="intro" id="sign-in">
         <div class="wrapper">
           <h1 class="intro__title">Discover Amazing places in Japan</h1>
           <p class="intro__subtitle">
@@ -220,7 +222,7 @@
       <!-- Places  end -->
 
       <!-- Tours  start -->
-      <div class="tours" id = "articles" >
+      <div class="tours" id="articles">
         <div class="wrapper-full">
           <div class="tours-tour tour">
             <div class="tour_pic">
@@ -268,7 +270,7 @@
 
       <!-- Top start -->
 
-      <section class="top" id = "locations">
+      <section class="top" id="locations">
         <div class="wrapper-full">
           <h2 class="top__title section-title">Today top places to visit</h2>
 
@@ -427,18 +429,20 @@
       </section>
       <!-- Top end -->
       <!-- videos -->
-<section class="videos" id = "videos">
-  <div class="videos_wrapper">
-    <div class="video-item">
-  
-    </div> 
-    <iframe class="video_elem"  
-    src="https://www.youtube.com/embed/qmN1Gf8rRc8" title="YouTube video player"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-  </div>
-  </section>
-  <!-- finish videos -->
+      <section class="videos" id="videos">
+        <div class="videos_wrapper">
+          <div class="video-item"></div>
+          <iframe
+            class="video_elem"
+            src="https://www.youtube.com/embed/qmN1Gf8rRc8"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </section>
+      <!-- finish videos -->
     </main>
 
     <footer class="footer">
@@ -512,4 +516,3 @@
     <script src="./js/main-es5.min.js"></script>
   </body>
 </html>
-  
