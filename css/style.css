@@ -33,16 +33,16 @@
 }
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
-.body {
+body {
   /*добавление базового стиля текста*/
   font-family: "Lato";
   font-style: normal;
@@ -51,7 +51,7 @@ html {
   font-weight: normal;
   color: #102746;
 }
-.img {
+img {
   max-width: 100%; /* фиксирование изображения в пределах контейнера*/
   height: auto; /* сжатие изображения пропорционально по высоте*/
 }
@@ -108,13 +108,13 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 56px;
 }
 
@@ -123,11 +123,11 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .header__item {
@@ -172,8 +172,8 @@ html {
 .burger__line_second {
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .burger__line_third {
   bottom: 0;
@@ -213,7 +213,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .search-form__field {
@@ -287,7 +287,7 @@ html {
   background-color: whitesmoke;
   margin: 0 auto;
   -webkit-box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
-          box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
   position: relative;
 }
 .benefits_title {
@@ -300,8 +300,8 @@ html {
   top: 0;
   left: 0;
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-          transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
   background-color: whitesmoke;
 }
 .benefits_cards {
@@ -364,13 +364,13 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 36px;
 }
 .places_title {
@@ -418,8 +418,8 @@ html {
 }
 .places_card:hover .places_card-pic {
   -webkit-transform: scale(1.05);
-      -ms-transform: scale(1.05);
-          transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .places_card_size_lg {
   -ms-grid-column-span: 3;
@@ -452,13 +452,13 @@ html {
 .places_card-pic_size_lg {
   height: 354px;
   -o-object-fit: cover;
-     object-fit: cover; /*как изображение будем маштабироваться внутри контейнера*/
+  object-fit: cover; /*как изображение будем маштабироваться внутри контейнера*/
   /*! не работает*/
 }
 .places_card-pic_size_sm {
   height: 283px;
   -o-object-fit: cover;
-     object-fit: cover; /*как изображение будем маштабироваться внутри контейнера*/
+  object-fit: cover; /*как изображение будем маштабироваться внутри контейнера*/
   /*! не работает*/
 }
 .places_card-link {
@@ -483,8 +483,8 @@ html {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 108px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-bottom: 77px;
 }
 .tour-info {
@@ -544,7 +544,7 @@ html {
 }
 .top__card-thumb {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
 }
 .top__card {
@@ -553,8 +553,8 @@ html {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -ms-grid-column-span: 2;
   grid-column: span 2;
 }
@@ -564,13 +564,13 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -659,7 +659,7 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .footer__logo {
@@ -670,10 +670,10 @@ html {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 50%;
 }
 
@@ -719,7 +719,7 @@ html {
   }
   .benefits_wrap {
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .places_card_size_lg {
     -ms-grid-column-span: 6;
@@ -782,13 +782,13 @@ html {
     z-index: 10;
     padding: 75px;
     -webkit-transform: translateX(100%);
-        -ms-transform: translateX(100%);
-            transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
   }
   .header__nav_active {
     -webkit-transform: translateX(0%);
-        -ms-transform: translateX(0%);
-            transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
     -webkit-transition: 0.2s all linear;
     -o-transition: 0.2s all linear;
     transition: 0.2s all linear;
@@ -826,13 +826,13 @@ html {
   }
   .header__nav-close-line:first-child {
     -webkit-transform: translateY(-50%) rotate(45deg);
-        -ms-transform: translateY(-50%) rotate(45deg);
-            transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
   }
   .header__nav-close-line:last-child {
     -webkit-transform: translateY(-50%) rotate(-45deg);
-        -ms-transform: translateY(-50%) rotate(-45deg);
-            transform: translateY(-50%) rotate(-45deg);
+    -ms-transform: translateY(-50%) rotate(-45deg);
+    transform: translateY(-50%) rotate(-45deg);
   }
   .intro {
     padding-top: 125px;
@@ -905,14 +905,14 @@ html {
   }
   .tour_pic_mob-first {
     -ms-grid-row: -1;
-        grid-row-start: -1;
+    grid-row-start: -1;
   }
   .tours-tour {
     margin-bottom: 30px;
   }
   .tour_thumb {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 213%;
   }
   .top {
@@ -943,7 +943,7 @@ html {
   }
   .tour_thumb {
     -o-object-fit: contain;
-       object-fit: contain;
+    object-fit: contain;
     width: 220%;
   }
 }
