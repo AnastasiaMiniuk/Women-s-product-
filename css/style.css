@@ -913,7 +913,7 @@ img {
   .tour_thumb {
     -o-object-fit: contain;
     object-fit: contain;
-    width: 213%;
+    min-width: 215%;
   }
   .top {
     margin-bottom: 76px;
@@ -944,7 +944,7 @@ img {
   .tour_thumb {
     -o-object-fit: contain;
     object-fit: contain;
-    width: 220%;
+    min-width: 222%;
   }
 }
 
